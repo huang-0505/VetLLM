@@ -14,13 +14,13 @@
 🛠️ Setup
 Create a virtual environment and install dependencies:
 
-bash
-Copy
-Edit
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
+- **bash
+- **python3 -m venv venv
+- **source venv/bin/activate
+- **pip install --upgrade pip
+- **pip install -r requirements.txt
+
+
 📁 Project Structure
 bash
 Copy
