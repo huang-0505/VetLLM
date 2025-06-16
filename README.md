@@ -14,24 +14,25 @@
 🛠️ Setup
 Create a virtual environment and install dependencies:
 
-- bash
-- python3 -m venv venv
-- source venv/bin/activate
-- pip install --upgrade pip
-- pip install -r requirements.txt
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
 
 
 📁 Project Structure
 
--VetLLM/
-├── vetllm.py                      # Training and inference script
-├── combined.txt                  # Raw training corpus
-├── results/                      # Checkpoints and logs
-├── finetuned-mistral7b-vet-lora/ # LoRA adapter output
+VetLLM/
+├── vetllm.py                        # Training and inference script
+├── combined.txt                    # Raw training corpus
+├── results/                        # Checkpoints and logs
+├── finetuned-mistral7b-vet-lora/   # LoRA adapter output
 ├── finetuned-mistral7b-vet-merged/ # Final merged model
-├── run.sh                        # Shell script for GCP automation
+├── run.sh                          # Shell script for GCP automation
 ├── requirements.txt
 └── README.md
+
 
 
 📜 License
