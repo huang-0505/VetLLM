@@ -20,9 +20,10 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-
+```
 📁 Project Structure
 
+```base
 VetLLM/
 ├── vetllm.py                        # Training and inference script
 ├── combined.txt                    # Raw training corpus
@@ -32,7 +33,7 @@ VetLLM/
 ├── run.sh                          # Shell script for GCP automation
 ├── requirements.txt
 └── README.md
-
+```
 
 
 📜 License
