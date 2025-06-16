@@ -14,17 +14,15 @@
 🛠️ Setup
 Create a virtual environment and install dependencies:
 
-- **bash
-- **python3 -m venv venv
-- **source venv/bin/activate
-- **pip install --upgrade pip
-- **pip install -r requirements.txt
+- bash
+- python3 -m venv venv
+- source venv/bin/activate
+- pip install --upgrade pip
+- pip install -r requirements.txt
 
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 VetLLM/
 ├── vetllm.py                      # Training and inference script
 ├── combined.txt                  # Raw training corpus
@@ -34,5 +32,7 @@ VetLLM/
 ├── run.sh                        # Shell script for GCP automation
 ├── requirements.txt
 └── README.md
+
+
 📜 License
 This project uses publicly accessible veterinary articles. Verify licensing before commercial use or redistribution.
