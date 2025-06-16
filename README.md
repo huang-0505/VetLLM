@@ -23,7 +23,7 @@ Create a virtual environment and install dependencies:
 
 📁 Project Structure
 
-VetLLM/
+-VetLLM/
 ├── vetllm.py                      # Training and inference script
 ├── combined.txt                  # Raw training corpus
 ├── results/                      # Checkpoints and logs
