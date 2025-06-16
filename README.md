@@ -38,3 +38,5 @@ VetLLM/
 
 📜 License
 This project uses publicly accessible veterinary articles. Verify licensing before commercial use or redistribution.
+
+Link to my Huggingface model: https://huggingface.co/huang342/vetllm0.05/tree/main
